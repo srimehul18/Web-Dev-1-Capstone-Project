@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Foodie - Your go to foodie partners</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="capstone.css">
+</head>
+
+<body>
+
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="nav-left">
+        <a href="#" class="logo">
+          <span class="logo-dot"></span>
+          <span class="logo-text">Foodie</span>
+        </a>
+        <nav class="nav-links">
+          <a href="#categories">Categories</a>
+          <a href="#featured">Restaurants</a>
+          <a href="#offers">Offers</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#app">App</a>
+        </nav>
+      </div>
+      <div class="nav-right">
+        <button class="btn btn-outline">Login</button>
+        <button class="btn btn-primary">Sign Up</button>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Delicious food,<br>delivered to you</h1>
+        <p>Order from your favorite restaurants and get your meal delivered fast, fresh, and hot.</p>
+        <button class="btn btn-primary hero-cta">Order Now</button>
+
+        <div class="hero-search">
+          <input type="text" class="input location-input" placeholder="Enter your location" />
+          <select class="input category-select">
+            <option>All Categories</option>
+            <option>Pizza</option>
+            <option>Burgers</option>
+            <option>Sushi</option>
+            <option>Indian</option>
+            <option>Chinese</option>
+            <option>Desserts</option>
+            <option>Mexican</option>
+            <option>Beverages</option>
+          </select>
+          <button class="btn btn-search">Search</button>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="/images/OIP.webp"
+          alt="Hero Food" class="hero-img" />
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="categories">
+    <div class="container">
+      <h2 class="section-title">Browse by Category</h2>
+
+      <div class="category-row">
+        <div class="category-card"><span class="cat-icon">🍕</span>Pizza</div>
+        <div class="category-card"><span class="cat-icon">🍔</span>Burgers</div>
+        <div class="category-card"><span class="cat-icon">🍣</span>Sushi</div>
+        <div class="category-card"><span class="cat-icon">🍛</span>Indian</div>
+        <div class="category-card"><span class="cat-icon">🥡</span>Chinese</div>
+        <div class="category-card"><span class="cat-icon">🧁</span>Desserts</div>
+        <div class="category-card"><span class="cat-icon">🌮</span>Mexican</div>
+        <div class="category-card"><span class="cat-icon">☕</span>Beverages</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="featured">
+    <div class="container">
+      <h2 class="section-title">Featured Restaurants</h2>
+
+      <div class="restaurant-grid">
+        <article class="restaurant-card">
+          <img
+            src="/images/pizza.webp"
+            class="rest-img" alt="Pizza Palace">
+          <div class="rest-body">
+            <h3>Pizza Palace</h3>
+            <p>Pizza, Italian</p>
+            <span class="rating">★ 4.8</span>
+          </div>
+        </article>
+
+        <article class="restaurant-card">
+          <img
+            src="/images/burger.webp"
+            class="rest-img" alt="Burger Hub">
+          <div class="rest-body">
+            <h3>Burger Hub</h3>
+            <p>Burgers, Fast Food</p>
+            <span class="rating">★ 4.6</span>
+          </div>
+        </article>
+
+        <article class="restaurant-card">
+          <img
+            src="/images/sushi.webp"
+            class="rest-img" alt="Sushi World">
+          <div class="rest-body">
+            <h3>Sushi World</h3>
+            <p>Sushi, Japanese</p>
+            <span class="rating">★ 4.7</span>
+          </div>
+        </article>
+
+        <article class="restaurant-card">
+          <img
+            src="/images/curry.webp"
+            class="rest-img" alt="Spice Route">
+          <div class="rest-body">
+            <h3>Spice Route</h3>
+            <p>Indian, Curry</p>
+            <span class="rating">★ 4.5</span>
+          </div>
+        </article>
+
+        <article class="restaurant-card">
+          <img
+            src="/images/chinese.webp"
+            class="rest-img" alt="Crazy Chinese">
+          <div class="rest-body">
+            <h3>Crazy Chinese</h3>
+            <p>Chinese, Cuisine</p>
+            <span class="rating">★ 4.8</span>
+          </div>
+        </article>
+
+        <article class="restaurant-card">
+          <img
+            src="/images/mexican.webp"
+            class="rest-img" alt="Taco Mexicana">
+          <div class="rest-body">
+            <h3>Taco Mexicana</h3>
+            <p>Mexican, Tacos</p>
+            <span class="rating">★ 4.3</span>
+          </div>
+        </article>
+
+        <article class="restaurant-card">
+          <img
+            src="/images/cake.webp"
+            class="rest-img" alt="The Cake Factory">
+          <div class="rest-body">
+            <h3>The Cake Factory</h3>
+            <p>Desserts, Bakery</p>
+            <span class="rating">★ 4.9</span>
+          </div>
+        </article>
+
+        <article class="restaurant-card">
+          <img
+            src="/images/coffee.webp"
+            class="rest-img" alt="The Cafe Talkies">
+          <div class="rest-body">
+            <h3>The Cafe Talkies</h3>
+            <p>Coffee, Beverages</p>
+            <span class="rating">★ 4.7</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section promo-section" id="offers">
+    <div class="container">
+      <h2 class="section-title">Promo Offers</h2>
+      <div class="promo-row">
+
+        <div class="promo-card">
+          <h4>🎉 Get 50% OFF on your first 5 orders!</h4>
+          <p class="promo-code">Use Code: <span>FIRST5</span></p>
+        </div>
+
+        <div class="promo-card">
+          <h4>🚚 Free delivery on orders above ₹250</h4>
+          <p class="promo-code">Use Code: <span>FREEDEL</span></p>
+        </div>
+
+        <div class="promo-card">
+          <h4>🍕 Buy 1 Get 1 Free on Pizza - Every Friday</h4>
+          <p class="promo-code">Use Code: <span>FRIDAYBOGO</span></p>
+        </div>
+
+        <div class="promo-card">
+          <h4>💰 Get flat ₹50 cashback on payment with UPI </h4>
+          <p class="promo-code">Use Code: <span>OnlinePay</span></p>
+        </div>
+
+        <div class="promo-card">
+          <h4>🥳 Get extra 20% off on orders above ₹1199 </h4>
+          <p class="promo-code">Use Code: <span>ItzParty</span></p>
+        </div>
+
+        <div class="promo-card">
+          <h4>🧑‍🎓 Flat 10% off for students </h4>
+          <p class="promo-code">Use Code: <span>Studying</span></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="testimonials">
+    <div class="container">
+      <h2 class="section-title">What Our Customers Say</h2>
+
+      <div class="testimonial-grid">
+
+
+        <article class="testimonial-card">
+          <img
+            src="/images/chakshu.webp"
+            alt="Chakshu Madan" class="testimonial-avatar">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">
+            “Foodie makes ordering food so easy and quick! The delivery is always on time and the food is hot.”
+          </p>
+          <p class="testimonial-name">Chakshu Madan</p>
+        </article>
+
+        <article class="testimonial-card">
+          <img
+            src="/images/somujeet.webp"
+            alt="Somujeet B." class="testimonial-avatar">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">
+            “Great selection of restaurants and amazing offers. Highly recommend to all food lovers!”
+          </p>
+          <p class="testimonial-name">Somujeet B.</p>
+        </article>
+
+        <article class="testimonial-card">
+          <img
+            src="/images/adil.webp"
+            alt="Adil Khan" class="testimonial-avatar">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">
+            “The app is super user-friendly and the customer support is fantastic. Love Foodie!”
+          </p>
+          <p class="testimonial-name">Adil Khan</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="app">
+    <div class="container app-strip">
+      <div>
+        <h2>Get the Foodie App</h2>
+        <p>Order on the go with our mobile app</p>
+      </div>
+      <div class="app-buttons">
+        <a href="https://www.apple.com/app-store/" target="_blank">
+          <button class="btn btn-dark">Apple App Store</button></a>
+        <a href="https://play.google.com/store/games?device=windows&pli=1" target="_blank">
+          <button class="btn btn-dark">Google Play Store</button></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2025 Foodie by Mehul Srivastava</span>
+
+      <div class="footer-social">
+        <a href="https://x.com/" target="_blank">
+          <img src="/images/twitter.webp"
+            alt="Twitter" class="footer-img">
+        </a>
+        <a href="https://github.com/srimehul18" target="_blank">
+          <img
+            src="/images/github.webp"
+            alt="Github" class="footer-img">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img
+            src="/images/insta.webp"
+            alt="Instagram" class="footer-img">
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img
+            src="/images/facebook.webp"
+            alt="Facebook" class="footer-img">
+        </a>
+      </div>
+
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Support</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
