@@ -1,4 +1,4 @@
-# Foodie – Food Delivery App (Frontend Project)
+# Foodie – Food Delivery App (Capstone Project)
 
 Foodie is a modern and responsive front-end website designed using HTML5 and CSS3. It demonstrates practical web development skills including Grid and Flexbox layout systems, a clean user interface, and mobile-first responsive design principles.
 
@@ -49,7 +49,7 @@ All sections adjust according to screen size to maintain usability and readabili
 
 
 
-## Developer
+### Developer
 
 **Mehul Srivastava**  
 Capstone Project Submission – 2025
