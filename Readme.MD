@@ -43,7 +43,7 @@ All sections adjust according to screen size to maintain usability and readabili
 
 1. Download or clone the repository.
 2. Ensure all referenced images are located inside the project's image folder.
-3. Open 'capstone.html' in any browser.
+3. Open 'index.html' in any browser.
 
 
 
